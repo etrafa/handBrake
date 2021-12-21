@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #e9f5ff 100%),
+    rgba(19, 145, 206, 0.7);
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Roboto Slab", serif;
+}
+
+/* NAVBAR STYLING STARTS HERE */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.8rem 1rem;
+}
+
+nav i {
+  font-size: 30px;
+  margin-top: 0.5rem;
+  color: #1391ce;
+}
+/* NAVBAR STYLING ENDS STARTS HERE  */
+
+/* BANNER STYLING STARTS HERE  */
+
+.banner {
+  margin-top: 4rem;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner h4 {
+  font-size: 64px;
+  text-align: center;
+  color: #25468a;
+  margin-top: 2rem;
+}
+
+.banner-subhead {
+  text-align: center;
+  color: #3b4a6b;
+  margin-top: 0.4rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.banner-text {
+  color: #3b4a6b;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.banner button {
+  width: 120px;
+  height: 40px;
+  background-color: #f7ba0e;
+  color: #3b4a6b;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto;
+}
+/* BANNER STYLING ENDS HERE  */
+
+/* CARD STYLING STARTS HERE  */
+.cards {
+  margin-top: 4rem;
+}
+
+.card {
+  width: 95%;
+  height: 140px;
+  background: #1391ce;
+  margin: 1rem auto;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 40px;
+  border-radius: 8px;
+}
+/* CARD STYLING ENDS HERE  */
+
+/* PRODUCT STYLING STARTS HERE  */
+.product-header h2 {
+  padding: 0 60px;
+  text-align: center;
+  line-height: 40px;
+  color: #1391ce;
+}
+
+.product-header hr,
+.open-source-box hr,
+.download-header hr {
+  background-color: #f7ba0e;
+  height: 8px;
+  border: none;
+  width: 40%;
+  margin: 0.5rem auto;
+}
+
+.product h4 {
+  text-align: center;
+  color: #25468a;
+  margin-top: 3rem;
+}
+
+.product h2 {
+  color: #1391ce;
+  text-align: center;
+  font-size: 34px;
+  padding: 0 20px;
+  margin-top: 2rem;
+}
+
+.product p,
+.open-source-box p,
+.download-header p {
+  color: #4f4f4f;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 1rem;
+}
+
+.product img {
+  max-width: 95%;
+  height: auto;
+  border-radius: 15px;
+  margin: 1.5rem auto;
+  display: flex;
+}
+
+.product h3 {
+  color: #1391ce;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  font-size: 24px;
+}
+
+.product-features {
+  display: flex;
+  flex-direction: column;
+  color: #1391ce;
+}
+
+.product-features i {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+}
+
+.product-features p {
+  margin-top: -1.5rem;
+  padding: 0 60px;
+}
+/* PRODUCT STYLING ENDS HERE  */
+
+/* OPEN SOURCE STYLING STARTS HERE  */
+
+.open-source-box h2 {
+  color: #1391ce;
+  text-align: center;
+  font-size: 34px;
+  padding: 0 20px;
+  margin-top: 2rem;
+}
+
+/* OPEN SOURCE STYLING ENDS HERE  */
+
+/* DOWNLOAD STYLING STARTS HERE  */
+
+.download h2 {
+  color: #1391ce;
+  text-align: center;
+  font-size: 34px;
+  padding: 0 20px;
+  margin-top: 2rem;
+}
+
+.download h4 {
+  text-align: center;
+  color: #25468a;
+  margin-top: 1rem;
+}
+
+.download img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.download-box {
+  width: 95%;
+  height: 340px;
+  background: #fff;
+  margin: 4rem auto;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.download-box img {
+  max-width: 80%;
+  height: auto;
+}
+
+.download-box h5,
+.download-box-small h5 {
+  font-size: 18px;
+  padding-top: 0.4rem;
+}
+
+.download-box a {
+  text-decoration: none;
+  color: #1391ce;
+  display: block;
+  margin-top: 1.2rem;
+}
+
+.download-box-small {
+  width: 95%;
+  height: 140px;
+  background: #fff;
+  margin: 1rem auto;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.download-box-small img {
+  max-width: 10%;
+  height: auto;
+}
+.download-box-small a {
+  text-decoration: none;
+  color: #1391ce;
+  margin-top: 1.2rem;
+}
+
+.download-box-windows,
+.download-box-mac,
+.download-box-linus,
+.download-box-others,
+.download-box-build,
+.download-box-archieve {
+  display: none;
+}
+
+.download-small {
+  width: 95%;
+  height: 60px;
+  background: #fff;
+  text-align: center;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.download-small h4 {
+  font-size: 24px;
+  margin-left: 1.8rem;
+}
+
+.download-small i {
+  margin-right: 1.8rem;
+  font-size: 22px;
+  padding-top: 1.2rem;
+  cursor: pointer;
+}
+
+/* DOWNLOAD STYLING ENDS HERE  */
+
+/* FOOTER STYLING STARTS HERE  */
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #1391ce;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0.4rem;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #3b4a6b;
+  font-size: 36px;
+}
+
+.social-media a:visited {
+  text-decoration: none !important;
+  color: #3b4a6b !important;
+}
+/* FOOTER STYLING ENDS HERE  */
